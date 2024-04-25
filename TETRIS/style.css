@@ -25,3 +25,29 @@ background: #d7d7d7;
     border: 1px solid white;
     position: absolute;
 }
+
+#start{
+    animation: blink.7s stps(2,start) infinite;
+    background: #e1ff5f;
+    border-radius: 2px;
+    color: #202020;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+@keyframes blink{
+    to{
+     outline: #e1ff5f solid 1px;
+    }
+}
+
+.red{
+    color: #f00000;
+}
+
+.square{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    border: 1px solid white;
+}
